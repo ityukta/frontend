@@ -548,6 +548,10 @@ body {
   color: #4a56f5;
 }
 
+.yo {
+  color: red;
+}
+
 .content {
   padding: 1.5rem;
   background-color: #f7f7f7;
