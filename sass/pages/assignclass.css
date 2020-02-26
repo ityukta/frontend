@@ -1,0 +1,43 @@
+.assignclass {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.assignclass__2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.assignclass__4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.assignclass__6 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.assignclass__teacher-img {
+  border-radius: 50%;
+}
+
+.assignclass__teachername {
+  margin: 0.3rem 0;
+}
+/*# sourceMappingURL=assignclass.css.map */
