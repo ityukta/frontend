@@ -21,7 +21,8 @@
         "pages/register2.scss",
         "pages/home.scss",
         "pages/allteachers.scss",
-        "pages/assignclass.scss"
+        "pages/assignclass.scss",
+        "pages/personalpage.scss"
     ],
     "names": [],
     "file": "main.css"
