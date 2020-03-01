@@ -20,6 +20,9 @@
 .marginbottom04 {
   margin-bottom: 0.4rem;
 }
+.marginbottom02 {
+  margin-bottom: 0.2rem;
+}
 .marginleft10 {
   margin-left: 10rem;
 }
@@ -55,4 +58,8 @@
 }
 .marginleft1 {
   margin-left: 1rem;
+}
+.displayflexcol {
+  display: flex;
+  flex-direction: column;
 }
