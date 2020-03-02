@@ -1156,6 +1156,10 @@ body {
   cursor: pointer;
 }
 
+.assignclass__teacherclass {
+  margin: 0.4rem 0;
+}
+
 .personal__overview {
   padding: 1rem;
   border-radius: 10px;
