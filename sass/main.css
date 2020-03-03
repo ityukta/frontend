@@ -948,6 +948,39 @@ body {
   grid-gap: 2rem;
 }
 
+.assignclass__selectclass {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.assignclass__selectyear {
+  width: 10rem;
+}
+
+.assignclass__selectyear .year {
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+}
+
+.assignclass__selectsection {
+  width: 10rem;
+}
+
+.assignclass__selectsection .section {
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+}
+
 .assignclass__2 {
   display: -ms-grid;
   display: grid;

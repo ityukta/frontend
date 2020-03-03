@@ -2,6 +2,31 @@
     display: grid;
     grid-template-columns: 1fr;                     //Per year 1 column,Only 1 row for that semister(1row for 2nd sem,1row for 4th sem)
     grid-gap: 2rem;
+    &__selectclass{
+        margin: 0 auto ;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+       // background-color:red
+    }
+    &__selectyear{
+        width: 10rem;
+        .year{
+            width: 100%;
+            padding: 0.3rem;
+            border-radius: 10px;
+            border:1px solid rgb(207, 207, 207);
+        }
+    }
+    &__selectsection{
+        width: 10rem;
+        .section{
+            width: 100%;
+            padding: 0.3rem;
+            border-radius: 10px;
+            border:1px solid rgb(207, 207, 207);
+        }
+    }
     &__2{                                           //Holds styling for 2nd sem class teachers
         display: grid;
         grid-template-columns: 1fr 1fr;             //Per semister 2 columns, pics 2 teachers for section A and B
@@ -11,7 +36,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
             border-radius: 5px;
@@ -20,7 +45,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
             border-radius: 5px;
@@ -36,7 +61,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
             border-radius: 5px;
@@ -45,7 +70,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
             border-radius: 5px;
@@ -60,7 +85,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
             border-radius: 5px;
@@ -69,10 +94,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border:1px solid $color-border;
+            border:1px solid rgb(207, 207, 207);
             padding: 3rem 4rem;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px; 
         }
     }
     &__add{
@@ -82,7 +107,7 @@
             margin: auto;
             height: 4rem;
             width: 4rem;
-            border: 1px solid $color-border;
+            border: 1px solid rgb(207, 207, 207);
             border-radius: 50%;
             display: flex;
             align-items: center;
