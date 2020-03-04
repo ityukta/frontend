@@ -1,0 +1,36 @@
+.studentbatch{
+    padding: 1rem 3rem;
+    &__add{
+        display: flex;
+        justify-content: space-around;
+        &__batch{
+            &__btn{
+                padding: 0.6rem 1rem;
+            }
+        }
+    }
+    &__details{
+        padding: 1rem;
+        &__heading{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        &__batch{
+            padding: 1rem;
+        }
+        &__tablehead{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 1rem;
+        }
+        &__student{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 0.5rem;
+            border-right: 1px solid rgb(207, 207, 207);
+        }
+    }
+}
