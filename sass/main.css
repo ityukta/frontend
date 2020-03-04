@@ -1367,6 +1367,23 @@ body {
   padding: 0.6rem 1rem;
 }
 
+.studentbatch__add__form .formcommon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1rem;
+}
+
+.studentbatch__add__form .inputcommon {
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+  padding: 0.4rem;
+}
+
 .studentbatch__details {
   padding: 1rem;
 }
@@ -1397,6 +1414,5 @@ body {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 0.5rem;
-  border-right: 1px solid #cfcfcf;
 }
 /*# sourceMappingURL=main.css.map */
