@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+.containers{
     width: 600px;
     border:1px solid rgb(207, 207, 207);
     padding: 1rem;
@@ -34,7 +34,7 @@ body{
     box-shadow:3px 3px 10px rgb(94, 87, 87);
     border-radius:10px;*/
 }
-.container__logo{
+.containers__logo{
     text-align:center;
     
 }
@@ -43,7 +43,7 @@ body{
     width:36%;
     height:20%;
 }
-.container__login{
+.containers__login{
     text-align:center;
     margin-top:10px;
     margin-bottom:10px;
@@ -104,7 +104,7 @@ body{
     color:gray;
 }
 
-.container__register{
+.containers__register{
     //  text-align:center;
     // margin-bottom:5%;
    
@@ -128,7 +128,7 @@ body{
         margin-left:32px;
     }
 }
-.container__info{
+.containers__info{
    
 }
 .forgotpassword{

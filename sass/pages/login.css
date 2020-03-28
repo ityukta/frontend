@@ -26,7 +26,7 @@ body {
           align-items: center;
 }
 
-.container {
+.containers {
   width: 600px;
   border: 1px solid #cfcfcf;
   padding: 1rem;
@@ -43,7 +43,7 @@ body {
     border-radius:10px;*/
 }
 
-.container__logo {
+.containers__logo {
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ body {
   height: 20%;
 }
 
-.container__login {
+.containers__login {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -114,7 +114,7 @@ body {
   color: gray;
 }
 
-.container__register {
+.containers__register {
   left: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,7 +125,7 @@ body {
   padding: 0 2rem;
 }
 
-.container__register__link {
+.containers__register__link {
   margin-right: 2rem;
   text-decoration: none;
 }
