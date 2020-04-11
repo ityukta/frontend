@@ -6,8 +6,9 @@
     <title>loginpage</title>
     <link rel="stylesheet" href="../sass/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body> 
     <div class="maincontainer">
         <div class="containers">
             <div class="containers__logo">
@@ -20,7 +21,7 @@
                  <span class="email__text">Email Address</span><br />
                     <input type="email" name="email"  class="email"><br />
                  <span class="password__text"> Password</span> 
-                 <a href="forgotpassword.html" class="forgotpassword">forgot password?</a><br />
+                 <a href="#" class="forgotpassword">forgot password?</a><br />
                     <input type="password" name="password"  class="password"/><br />
                  <div class="containers__button">
                     <input type="submit" value="Login" class="button">
@@ -32,6 +33,30 @@
                     <!--<span class="register__text">Dont have an account yet?</span><a href="#" class="register">Register</a>-->
                 </div>            
         </div>
+
+        <div class="modal modal__dispnone">    <!--modal__dispnone is a class to hide the modal from the page-->
+            <div class="modal__body login__modal">
+                <div class="close-btn"><i class="fa fa-times fa-2x"></i></div>
+                <div class="resetpassword">
+                    <div class="resetpassword__form">
+                        <div class="resetpassword__email">
+                            <label for="email">Enter your Email ID</label>
+                            <input type="email" placeholder="Email" class="resetpassword__email__input">
+                        </div>
+                        <div class="resetpassword__otp">
+                            <label for="otp">Enter OTP</label>
+                            <input type="number" class="resetpassword__otp__input">
+                        </div>
+                        <div class="resetpassword__otplink">
+                            <a href="#">Send OTP</a>
+                        </div>
+                        <button class="resetpassword__submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+    <script src="../js/forgotpass.js"></script>
 </body>
 </html>
